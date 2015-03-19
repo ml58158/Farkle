@@ -14,6 +14,7 @@
 		C4EB4D2F1ABB65D100B7CF4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EB4D2E1ABB65D100B7CF4B /* Images.xcassets */; };
 		C4EB4D321ABB65D100B7CF4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4EB4D301ABB65D100B7CF4B /* LaunchScreen.xib */; };
 		C4EB4D3E1ABB65D100B7CF4B /* FarkleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB4D3D1ABB65D100B7CF4B /* FarkleTests.m */; };
+		C4EB4D491ABB660600B7CF4B /* DieLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C4EB4D481ABB660600B7CF4B /* DieLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C4EB4D371ABB65D100B7CF4B /* FarkleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarkleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EB4D3C1ABB65D100B7CF4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4EB4D3D1ABB65D100B7CF4B /* FarkleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FarkleTests.m; sourceTree = "<group>"; };
+		C4EB4D471ABB660600B7CF4B /* DieLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DieLabel.h; path = ../DieLabel.h; sourceTree = "<group>"; };
+		C4EB4D481ABB660600B7CF4B /* DieLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DieLabel.m; path = ../DieLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				C4EB4D261ABB65D100B7CF4B /* AppDelegate.m */,
 				C4EB4D281ABB65D100B7CF4B /* ViewController.h */,
 				C4EB4D291ABB65D100B7CF4B /* ViewController.m */,
+				C4EB4D471ABB660600B7CF4B /* DieLabel.h */,
+				C4EB4D481ABB660600B7CF4B /* DieLabel.m */,
 				C4EB4D2B1ABB65D100B7CF4B /* Main.storyboard */,
 				C4EB4D2E1ABB65D100B7CF4B /* Images.xcassets */,
 				C4EB4D301ABB65D100B7CF4B /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				C4EB4D2A1ABB65D100B7CF4B /* ViewController.m in Sources */,
 				C4EB4D271ABB65D100B7CF4B /* AppDelegate.m in Sources */,
 				C4EB4D241ABB65D100B7CF4B /* main.m in Sources */,
+				C4EB4D491ABB660600B7CF4B /* DieLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
